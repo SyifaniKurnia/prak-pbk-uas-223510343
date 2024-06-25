@@ -135,9 +135,8 @@ span {
 .form-container {
   height: 100px;
   margin-top: 20px;
-  margin: 0 9rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .input-container {
