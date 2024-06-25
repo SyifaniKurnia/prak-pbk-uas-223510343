@@ -10,17 +10,13 @@
           >
           <div class="link">
             <button class="q-btn" @click="goto('')">Weather</button>
-            <div class="dropdown q-mr-sm">
-              <button class="q-btn">Tugas</button>
-              <div class="dropdown-content">
-                <a href="#" @click.prevent="goto('tugas1')">Tugas 1</a>
-                <a href="#" @click.prevent="goto('tugas2')">Tugas 2</a>
-                <a href="#" @click.prevent="goto('tugas3')">Tugas 3</a>
-                <a href="#" @click.prevent="goto('tugas4')">Tugas 4</a>
-                <a href="#" @click.prevent="goto('tugas5')">Tugas 5</a>
-                <a href="#" @click.prevent="goto('tugas6')">Tugas 6</a>
-              </div>
-            </div>
+            <button class="q-btn" @click="goto('tugas1')">Tugas 1</button>
+            <button class="q-btn" @click="goto('tugas2')">Tugas 2</button>
+            <button class="q-btn" @click="goto('tugas3')">Tugas 3</button>
+            <button class="q-btn" @click="goto('tugas4')">Tugas 4</button>
+            <button class="q-btn" @click="goto('tugas5')">Tugas 5</button>
+            <button class="q-btn" @click="goto('tugas6')">Tugas 6</button>
+            
             <div class="dropdown q-mr-sm">
               <button class="q-btn">Link Web Tugas</button>
               <div class="dropdown-content">
